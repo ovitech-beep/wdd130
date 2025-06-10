@@ -1,0 +1,62 @@
+/* Header and Main Heading */
+h1 {
+  background-color: darkblue;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Heading Color */
+h1 {
+  color: darkblue;
+}
+
+/* Images */
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid black;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+/* Paragraphs */
+p {
+  padding: 10px;
+}
+
+/* Main Section Styles */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e6f2ff;
+}
+
+/* Aside Section Styles */
+aside {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f4f4f4;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #333;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
