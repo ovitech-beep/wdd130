@@ -1,0 +1,163 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #014f86;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url("../images/hero-rafting.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+}
+
+/* Newsletter Form */
+.newsletter {
+  background-color: #e7f0fa;
+  padding: 2rem;
+  text-align: center;
+}
+
+.newsletter form {
+  margin-top: 1rem;
+}
+
+.newsletter label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  width: 200px;
+  max-width: 80%;
+  margin: 0.5rem;
+}
+
+.newsletter button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter button:hover {
+  background-color: #005fa3;
+}
+
+/* Call to Action */
+.cta {
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.cta .button {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta .button:hover {
+  background-color: #005fa3;
+}
+
+/* Grid Content */
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #fefefe;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.grid-item p {
+  padding: 1rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: #014f86;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  position: relative;
+}
+
+footer .social-icons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer .social-icons img {
+  width: 40px;
+  height: 40px;
+}
